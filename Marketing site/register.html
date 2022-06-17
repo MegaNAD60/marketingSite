@@ -1,0 +1,71 @@
+<!Doctype>
+<html>
+<head>
+<title>register</title>
+<meta charset="utf-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
+<link rel="stylesheet" href="/path/to/cdn/bootstrap.min.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+<link href="style.css" rel="stylesheet">
+<style>
+body{
+background-image:url('portfolio2/portfolio-2.jpg');
+background-repeat:no-repeat;
+background-position:center;
+background-size:1000px 600px;
+}
+.fm1 {
+    border-radius:14px;
+    width:80%;
+    margin: 0 auto;
+    border-style:double;
+    border-color: #fff;
+    padding:10px;
+    margin-top:100px;
+    border-style:hidden;
+    background: #577d9ae3;
+    box-shadow: 0 1px 4px rgba(255, 255, 255, 0.89);
+} 
+h1{
+color:white;
+font-size:4vw;
+font-weight:800;
+}
+input{
+width:90%;
+height:40px;
+padding:20px;
+margin:10px;
+}
+#btn4{
+height:40px;
+font-size:2vw;
+}
+</style>
+<script>
+$(function() {  
+$("form").validate();  
+});  
+</script>
+</head>
+<body>
+<fieldset>
+<div class="fm1">
+<form>
+<center>
+<h1>REGISTER</h1>
+<input type="text" id="na" placeholder="FULL-NAME" required></input><br/>
+<input type="email" id="em" placeholder="EMAIL ADDRESS" required></input><br/>
+<input type="text" id="con3" placeholder="COUNTRY" required></input><br/>
+<input type="number" id="ph" placeholder="PHONE NO." required></input><br/>
+<center>
+<button type="submit" id="btn4" VALUE="SUBMIT">SUBMIT</button><br/>
+</form>
+</div>
+</fieldset>
+</body>
+</html>

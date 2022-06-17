@@ -1,0 +1,280 @@
+body{
+
+	}
+#home{
+width:100%;
+height:100%;
+margin-top:0px;
+display:inline-block;
+overflow:hidden;
+text-align:center;
+background-image:linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)),url('portfolio2/portfolio-8.jpg');
+background-position:center;
+background-repeat:no-repeat;
+background-size:1200px 650px;
+}
+.index-body{
+	width:100%;
+	margin-top:150px;
+}
+#home h1{
+color:white;
+font-size:4vw;
+font-weight:800;
+}
+h3{
+	color:white;
+	font-size:2vw;
+	font-weight:800;
+}
+button{
+background:#ff4a17;
+color:white;
+font-size:3vw;
+border: 2px solid #ff4a17;
+}
+button:hover{
+  border-color: #fff;
+  color:white;
+  background: rgba(255, 255, 255, 0.1);
+}
+#btn1{
+	font-size:2vw;
+	float:right;
+	margin-top:20px;
+	margin-right:70px;
+	border-radius:5px;
+}
+#btn2{
+	font-size:2vw;
+	float:right;
+	margin-top:20px;
+	margin-right:10px;
+	border-radius:5px;
+}
+#btn3{
+margin-top:40px;
+}
+#home a{
+	color:white;
+}
+#home a:hover{
+	color:white;
+	text-decoration:none;
+}
+#backToTopBtn{
+	position:fixed;
+	bottom:15px;
+	right:100px;
+	z-index:99;
+	border:none;
+	outline:none;
+	background-color:#ff4a17;
+	color:white;
+	cursor:pointer;
+	padding:10px;
+	border-radius:10px;
+	font-size:18px;
+	font-weight:300;
+}
+#backToTopBtn:hover{
+	background-color:#555;
+}
+#about{
+    border-radius:14px;
+    width:90%;
+    margin: 0 auto;
+}
+#about #about-us-row{
+    border-radius:14px;
+    width:100%;
+    margin: 0 auto;
+    border-style:double;
+    border-color: #fff;
+    padding:10px;
+    margin-top:20px;
+    border-style:hidden;
+    background: silver;
+    box-shadow: 0 1px 4px rgba(255, 255, 255, 0.89);
+}
+#abt-img-1{
+	width:325px;
+	height:350px;
+	margin:0 auto;
+}
+#about h1{
+	color:#ff4a17;
+	padding-top:20px;
+	font-weight:200;
+}
+#about h2{
+	color:#ff4a17;
+}
+#mission-row{
+    border-radius:14px;
+    width:100%;
+    margin: 0 auto;
+    border-style:double;
+    border-color: #fff;
+    padding:10px;
+    margin-top:20px;
+    border-style:hidden;
+    background: lightgrey;
+    box-shadow: 0 1px 4px rgba(255, 255, 255, 0.89);
+}
+#vision-row{
+    border-radius:14px;
+    width:100%;
+    margin: 0 auto;
+    border-style:double;
+    border-color: #fff;
+    padding:10px;
+    margin-top:20px;
+    border-style:hidden;
+    background: silver;
+    box-shadow: 0 1px 4px rgba(255, 255, 255, 0.89);
+}
+#services{
+    border-radius:14px;
+    width:90%;
+    margin: 0 auto;
+    border-style:double;
+    border-color: #fff;
+    padding:10px;
+    margin-top:50px;
+    border-style:hidden;
+	background:silver;
+}
+#services h2{
+	color:#ff4a17;
+	}
+#ser-h1-1{
+	color:navy;
+}
+#services .row{
+	width:100%;
+	margin:auto;
+}
+.services-col-1{
+	width:90%;
+	margin:auto;
+	margin-top:10px;
+    padding:5px;
+	background:white;
+    box-shadow: 0 1px 4px rgba(255, 255, 255, 0.89);
+}
+.fa{  
+color:lightblue;  
+font-size:50px;  
+margin:10px;  
+} 
+.footer{
+	width:90%;
+	margin:auto;
+	color:white;
+	margin-top:10px;
+	background:black;
+	padding-left:20px;
+}
+.footer h1{
+	color:white;
+}
+.footer h2{
+	color:white;
+}
+.footer p{
+	color:lightgrey;
+	}
+.footer li{
+list-style-type:none;
+padding:0;
+margin:0;
+}
+.footer li{
+	color:lightgrey;
+	padding-left:16px;
+}
+.footer li::before{
+content:">";
+padding-right:8px;
+color:#ff4a17;
+}
+.footer a{
+	color:lightgrey;
+}
+.footer .fa{
+color:lightgrey;	
+font-size:25px;
+margin:auto;
+text-align:center;  
+} 
+.fa-facebook{
+border-color: #fff;
+background: rgba(255, 255, 255, 0.1);
+color:black;
+width:30px;
+height:30px;
+border-radius:10px;
+} 
+.fa-twitter{
+border-color: #fff;
+background: rgba(255, 255, 255, 0.1);
+color:black;
+width:30px;
+border-radius:10px;
+height:30px;
+} 
+.fa-instagram{
+border-color: #fff;
+background: rgba(255, 255, 255, 0.1);
+color:black;
+width:30px;
+border-radius:10px;
+height:30px;
+} 
+.fa-whatsapp{
+border-color: #fff;
+background: rgba(255, 255, 255, 0.1);
+color:black;
+width:30px;
+border-radius:10px;
+height:30px;
+} 
+.fa-telegram{
+border-color: #fff;
+background: rgba(255, 255, 255, 0.1);
+color:black;
+width:30px;
+border-radius:10px;
+height:30px;
+}
+.fa-facebook:hover{
+border-color: #fff;
+background:#55ACEE;
+color:white;
+text-decoration:none;  
+}
+.fa-telegram:hover{
+border-color: #fff;
+background:#55ACEE;
+color:white;
+text-decoration:none;  
+}
+.fa-instagram:hover{
+border-color: #fff;
+background:#55ACEE;
+color:white;
+text-decoration:none;  
+}
+.fa-whatsapp:hover{
+border-color: #fff;
+background:#55ACEE;
+color:white;
+text-decoration:none;  
+}
+.fa-twitter:hover{
+border-color: #fff;
+background:#55ACEE;
+color:white;
+text-decoration:none;  
+}
