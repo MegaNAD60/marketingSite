@@ -87,6 +87,18 @@ h3{
 	color:white;
 	background: rgba(255, 255, 255, 0.1);
 }
+#btn4{
+	font-size:2em;
+	margin-top:20px;
+	color:white;
+	background:#ff4a17;
+	border: 2px solid #ff4a17;
+}
+#btn4:hover{
+	border-color: #fff;
+	color:white;
+	background: rgba(255, 255, 255, 0.1);
+}
 #home a{
 	color:white;
 }
@@ -162,8 +174,9 @@ h3{
 	color:#ff4a17;
 	}
 #services-h1{
+	color:#333;
 	font-size:2.5em;
-	color:navy;
+	font-weight:80;
 }
 #services .row{
 	width:100%;
@@ -323,12 +336,20 @@ input{
 }
 #register-btn{
 	height:40px;
-	font-size:2em;
+	font-size:2rem;
+	color:white;
+	border:hidden;
+	background-color:#fd3800;
+}
+#register-btn:hover{
+	border-color:white;
+	border-style:solid;
+	background-color:rgba(255, 255, 255, 0.1);
 }
 
 /*----------login.html----------*/
 #login-body{
-	background-image:url('portfolio2/portfolio-3.jpg');
+	background-color:white;
 	background-repeat:no-repeat;
 	background-position:center;
 	background-size:cover;
@@ -342,12 +363,12 @@ input{
     padding:10px;
     margin-top:80px;
     border-style:hidden;
-    background: white;
+    background: lightgrey;
     box-shadow: 0 1px 4px rgba(255, 255, 255, 0.89);
 } 
 #login-h1{
 	color:black;
-	font-size:4vw;
+	font-size:4rem;
 	font-weight:800;
 }
 input{
@@ -356,18 +377,23 @@ input{
 	padding:20px;
 	margin:10px;
 }
+#login-username{
+	border:hidden;
+}
+#login-password{
+	border:hidden;
+}
 #google-btn{
 	width:90%;
-	font-size:1.5em;
 	color:white;
+	font-size:1.5rem;
 	padding-top:10;
-	font-size:20px;
 	border-style:hidden;
 	background:#ff4a17;
 }
 #facebook-btn{
 	width:90%;
-	font-size:1.5em;
+	font-size:1.5rem;
 	color:white;
 	text-align:center;
 	margin-top:10px;
@@ -386,12 +412,6 @@ input{
 	height:30px;
 	margin-right:10px;
 	border-radius:10px;
-	background:#ff4a17;
-}
-.login-box .fa-google:hover{
-	background:#55ACEE;
-	color:black;
-	text-decoration:none;  
 }
 .login-box .fa-facebook{
 	border-color: #fff;
@@ -400,12 +420,6 @@ input{
 	height:30px;
 	margin-right:10px;
 	border-radius:10px;
-	background: rgba(255, 255, 255, 0.1);
-}
-.login-box .fa-facebook:hover{
-	background:#577d9ae3;
-	color:white;
-	text-decoration:none;  
 }
 #login-btn{
 	margin-top:10px;
@@ -436,7 +450,8 @@ input{
 	margin-top:100px;
 }
 #portfolio-h1{
-	color:navy;
+	color:#333;
+	font-weight:80;
 }
 #portfolio-button{
 	font-size:20px;
@@ -468,10 +483,11 @@ input{
 .overlay{
 	position:absolute;
 	bottom:0;
-	background:teal;
+	background:#333;
 	background:rgb(0,0,0 0.5);
 	color:#f1f1f1;
-	width:100%;
+	width:83%;
+	margin-left:20px;
 	transition: .5s ease;
 	opacity:0;
 	color:white;
@@ -537,6 +553,135 @@ input{
 	background:#e5edf3;
 }
 
+/*----------contact.html styling----------*/
+#contact-body{
+	background-color:lightgrey;
+}
+#contact{
+	width:100%;
+	padding-top:100px;
+	display:inline-block;
+	overflow:hidden;
+	border-style:hidden;
+}
+#contact h1{
+	color:#fd3800;
+	
+}
+#contact .info-box {
+	color: #444444;
+	text-align: center;
+	box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+	padding: 20px 0 30px 0;
+}
+#contact .info-box i {
+    font-size: 32px;
+    color: #ff4a17;
+    border-radius: 50%;
+    padding: 8px;
+}
+#contact .info-box h3 {
+    font-size: 20px;
+    color: #777777;
+    font-weight: 700;
+    margin: 10px 0;
+}
+#contact .info-box p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.location-box{
+	width:90%;
+	margin:auto;
+	text-align:center;
+	background-color:white;
+}
+.email-box{
+	width:90%;
+	margin:auto;
+	text-align:center;
+	background-color:white;
+}
+.phone-box{
+	width:90%;
+	margin:auto;
+	text-align:center;
+	background-color:white;
+}
+#contact .message-box{
+	border-radius:14px;
+    width:90%;
+	margin:auto;
+	text-align:center;
+    border-style:double;
+    border-color: #fff;
+	border-style:hidden;
+	background-color:white;
+}
+#contact h2 {
+    font-size: 2rem;
+    color:#fd3800;
+    font-weight: 700;
+    margin: 10px 0;
+}
+#contact #message-box-name{
+	width:90%;
+	height:40px;
+	padding:10px;
+	border-radius:5px;
+	border-color:lightgrey;
+	border-style:solid;
+	background-color:white;
+} 
+#contact #message-box-email{
+	width:90%;
+	height:40px;
+	padding:10px;
+	border-radius:5px;
+	border-color:lightgrey;
+	border-style:solid;
+	background-color:white;
+}
+#contact #message-box-subject{
+	width:90%;
+	height:40px;
+	padding:10px;
+	border-radius:5px;
+	border-style:solid;
+	border-color:lightgrey;
+	background-color:white;
+} 
+#contact #message-box-textarea{
+	width:90%;
+	height:120px;
+	padding:10px;
+	border-radius:5px;
+	border-style:solid;
+	border-color:lightgrey;
+	background-color:white;
+}
+#contact #message-box-button{
+	border-radius:30px;
+	height:40px;
+	width:30%;
+	color:white;
+	margin-bottom:20px;
+	border: 2px solid #ff4a17;
+	background-color:#fd3800;
+}
+#contact #message-box-button:hover{
+	color:#fd3800;
+	border-color:#fd3800;
+	background: rgba(255, 255, 255, 0.1);
+}
+#contact .fa{  
+	color:red;  
+	font-size:50px;  
+	margin:10px;  
+}  
+
 /*----------navigation bar styling----------*/
 .navbar-brand{
 	font-weight:700;
@@ -544,14 +689,18 @@ input{
 }
 .navbar-custom{
 	color:white;
-	background-color:teal;
+	background-color:#333;
+	opacity:0.95;
+}
+.navbar li{
+	margin:0px 10px;
 }
 .nav-link{
 	color:white;
 }
 .nav-link:hover{
 	color:white;
-	background-color:#4c9e9e;
+	background-color#ff4a17;
 }
 .btn-custom{
 	color:white;
@@ -581,12 +730,10 @@ input{
 	font-size:30px;
 }
 .fa-link{
-	float:right;
 	font-size:20px;
 	margin-right:10px;
 }
 .fa-plus{
-	float:right;
 	font-size:20px;
 	margin-right:10px;
 }

@@ -15,3 +15,8 @@ $("form").validate();
 $(function() {  
 $("form").validate();  
 }); 
+
+/*----------contact validation----------*/
+$(function() {  
+$("form").validate();  
+}); 
