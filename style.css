@@ -1,4 +1,6 @@
-/*----------back to top button----------*/
+/*------------------------------------
+----------Back to top styling----------
+------------------------------------*/
 #backToTopBtn{
 	position:fixed;
 	bottom:15px;
@@ -18,7 +20,9 @@
 	background-color:#555;
 }
 
-/*----------index.html----------*/
+/*------------------------------------
+----------index.html----------
+------------------------------------*/
 #home{
 	width:100%;
 	height:100%;
@@ -195,6 +199,9 @@ h3{
 	font-size:50px;  
 	margin:10px;  
 } 
+/*------------------------------------
+----------footer styling----------
+------------------------------------*/
 .footer{
 	width:100%;
 	margin:auto;
@@ -304,7 +311,9 @@ h3{
 	background:black;
 }
 
-/*----------register.html----------*/
+/*------------------------------------
+----------register.html----------
+------------------------------------*/
 #register-body{
 	background-image:url('portfolio2/portfolio-2.jpg');
 	background-repeat:no-repeat;
@@ -347,7 +356,9 @@ input{
 	background-color:rgba(255, 255, 255, 0.1);
 }
 
-/*----------login.html----------*/
+/*------------------------------------
+----------login.html----------
+------------------------------------*/
 #login-body{
 	background-color:white;
 	background-repeat:no-repeat;
@@ -444,7 +455,9 @@ input{
 	text-decoration:none;
 }
 
-/*----------portfolio.html----------*/
+/*------------------------------------
+----------portfolio.html----------
+------------------------------------*/
 #portfolio-h2{
 	color:#ff4a17;
 	margin-top:100px;
@@ -472,22 +485,25 @@ input{
 	text-decoration:none;
 }
 #portfolio-img{
-	width:90%;
-	height:60%;
+	position:relative;
+	width:100%;
+	height:300px;
 	margin-top:50px;
 }
 .container{
 	position:relative;
-	width:100%;
+	width:80%;
 }
 .overlay{
 	position:absolute;
 	bottom:0;
+	width:92%;
+	right:0;
+	left:0;
+	margin:auto;
 	background:#333;
 	background:rgb(0,0,0 0.5);
 	color:#f1f1f1;
-	width:83%;
-	margin-left:20px;
 	transition: .5s ease;
 	opacity:0;
 	color:white;
@@ -510,7 +526,9 @@ input{
 	opacity:0.9;
 }
 
-/*----------product-details.html----------*/
+/*------------------------------------
+----------product-details.html----------
+------------------------------------*/
 #portfolio-details-h1{
 	margin-top:100px;
 	font-size:2rem;
@@ -553,7 +571,9 @@ input{
 	background:#e5edf3;
 }
 
-/*----------contact.html styling----------*/
+/*------------------------------------
+----------contact.html----------
+------------------------------------*/
 #contact-body{
 	background-color:lightgrey;
 }
@@ -682,7 +702,9 @@ input{
 	margin:10px;  
 }  
 
-/*----------navigation bar styling----------*/
+/*------------------------------------
+----------navigation-bar styling----------
+------------------------------------*/
 .navbar-brand{
 	font-weight:700;
 	color:white;
@@ -712,7 +734,9 @@ input{
 	background-color:#ff4a17;
 }
 
-/*----------icons styling----------*/
+/*------------------------------------
+----------icons styling----------
+------------------------------------*/
  .fas{
 	color:white;	
 	font-size:40px;
@@ -738,7 +762,9 @@ input{
 	margin-right:10px;
 }
 
-/*----------media query----------*/
+/*------------------------------------
+----------media-query styling----------
+------------------------------------*/
 @media (max-width : 600px){
 	#btn1{
 		font-size:1em;
