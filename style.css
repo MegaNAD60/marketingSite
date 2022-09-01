@@ -11,10 +11,10 @@
 	background-color:#ff4a17;
 	color:white;
 	cursor:pointer;
-	padding:10px;
+	padding:5px;
 	border-radius:10px;
 	font-size:18px;
-	font-weight:300;
+	font-weight:200;
 }
 #backToTopBtn:hover{
 	background-color:#555;
@@ -27,6 +27,8 @@
 	width:100%;
 	height:100%;
 	margin-top:0px;
+	margin-bottom:50px;
+	padding-bottom:200px;
 	display:inline-block;
 	overflow:hidden;
 	text-align:center;
@@ -48,36 +50,6 @@ h3{
 	color:white;
 	font-size:1.5em;
 	font-weight:800;
-}
-#btn1{
-	font-size:1.5em;
-	float:right;
-	margin-top:20px;
-	margin-right:50px;
-	border-radius:5px;
-	color:white;
-	background:#ff4a17;
-	border: 2px solid #ff4a17;
-}
-#btn1:hover{
-	border-color: #fff;
-	color:white;
-	background: rgba(255, 255, 255, 0.1);
-}
-#btn2{
-	font-size:1.5em;
-	float:right;
-	margin-top:20px;
-	margin-right:10px;
-	border-radius:5px;
-	color:white;
-	background:#ff4a17;
-	border: 2px solid #ff4a17;
-}
-#btn2:hover{
-	border-color: #fff;
-	color:white;
-	background: rgba(255, 255, 255, 0.1);
 }
 #btn3{
 	font-size:2em;
@@ -124,12 +96,13 @@ h3{
     padding:10px;
     margin-top:20px;
     border-style:hidden;
-    background: silver;
-    box-shadow: 0 1px 4px rgba(255, 255, 255, 0.89);
+	background:#e0e0e0;
+	box-shadow: 16px 16px 10px #acacac,
+				-16px -16px 10px #ffffff;
 }
-#abt-img-1{
+#abt-img{
 	width:90%;
-	height:50%;
+	height:330px;
 }
 #about h1{
 	color:#ff4a17;
@@ -146,10 +119,11 @@ h3{
     border-style:double;
     border-color: #fff;
     padding:10px;
-    margin-top:20px;
+    margin-top:40px;
     border-style:hidden;
-    background: lightgrey;
-    box-shadow: 0 1px 4px rgba(255, 255, 255, 0.89);
+	background:#e0e0e0;
+	box-shadow: 16px 16px 10px #acacac,
+				-16px -16px 10px #ffffff;
 }
 #vision-row{
     border-radius:14px;
@@ -158,10 +132,11 @@ h3{
     border-style:double;
     border-color: #fff;
     padding:10px;
-    margin-top:20px;
+    margin-top:40px;
     border-style:hidden;
-    background: silver;
-    box-shadow: 0 1px 4px rgba(255, 255, 255, 0.89);
+	background:#e0e0e0;
+	box-shadow: 16px 16px 10px #acacac,
+				-16px -16px 10px #ffffff;
 }
 #services{
     border-radius:14px;
@@ -315,10 +290,10 @@ h3{
 ----------register.html----------
 ------------------------------------*/
 #register-body{
-	background-image:url('portfolio2/portfolio-2.jpg');
+	background-image:white;
 	background-repeat:no-repeat;
 	background-position:center;
-	background-size:1000px 600px;
+	background-size:cover;
 }
 #register-input-box {
     border-radius:14px;
@@ -492,12 +467,12 @@ input{
 }
 .container{
 	position:relative;
-	width:80%;
+	width:100%;
 }
 .overlay{
 	position:absolute;
 	bottom:0;
-	width:92%;
+	width:100%;
 	right:0;
 	left:0;
 	margin:auto;
@@ -726,12 +701,16 @@ input{
 }
 .btn-custom{
 	color:white;
+	margin:3px;
 	border-color:white;
 }
 .btn-custom:hover{
 	color:white;
 	border-color:#ff4a17;
 	background-color:#ff4a17;
+}
+.btn-custom a{
+	color:white;
 }
 
 /*------------------------------------
@@ -779,7 +758,7 @@ input{
 		margin-right:5px;
 	}
 	#backToTopBtn{
-		font-size:1.5rem;
+		font-size:1rem;
 		right:3px;
 	}
 }
