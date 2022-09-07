@@ -21,6 +21,153 @@
 }
 
 /*------------------------------------
+----------navigation-bar styling----------
+------------------------------------*/
+.navbar-brand{
+	font-weight:700;
+	color:white;
+}
+.navbar-custom{
+	color:white;
+	background:#040b14;
+}
+#index .navbar-custom{
+	color:white;
+	color:white;
+	background-color:transparent;
+}
+#index .navbar-custom.scrolled{
+	background:#040b14;
+	opacity:0.95;
+}
+#store .navbar-custom{
+	color:white;
+	color:white;
+	background-color:transparent;
+}
+#store .navbar-custom.scrolled{
+	background:#040b14;
+	opacity:0.95;
+}
+
+#store .nav-link{
+	color:black;
+}
+#store .nav-link.scrolled{
+	color:white;
+}
+.navbar li{
+	margin:0px 10px;
+}
+.nav-link{
+	color:white;
+}
+.nav-link:hover{
+	color:white;
+	background-color#ff4a17;
+}
+.btn-custom{
+	color:white;
+	margin:3px;
+	border-color:white;
+}
+.btn-custom:hover{
+	color:white;
+	border-color:#ff4a17;
+	background-color:#ff4a17;
+}
+.btn-custom a{
+	color:white;
+}
+
+/*
+.navbar-brand{
+	font-weight:700;
+	font-size:1.5rem;
+	color:white;
+}
+.navbar{
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.navbar-custom{
+	color:white;
+	background-color:transparent;
+}
+.navbar li{
+	margin:0px 10px;
+	font-size: 20px;
+}
+.nav-link{
+	color: white;
+}
+.nav-link:hover{
+	color:white;
+	text-decoration:underline;
+	text-decoration-color: rgb(26, 158, 158);
+}
+#pricing .navbar-brand{
+	color: rgb(26, 158, 158);
+}
+#pricing .nav-link{
+	color: rgb(43, 42, 42);
+}
+.navbar-custom.scrolled{
+	background-color:white !important;
+	box-shadow: 5px 5px 7px #696969,
+				-5px -5px 7px #ffffff;
+}
+.nav-link.scrolled{
+	color:rgb(43, 42, 42);
+}
+.navbar-brand.scrolled{
+	color: rgb(26, 158, 158);
+}
+.navbar-toggler.collapsed.close-icon{
+	display:none;
+}
+.navbar button[aria-expanded="true"] > .close-icon{
+	display: inline;
+}
+.navbar button[aria-expanded="true"] > .bars-icon{
+	display: none;
+}
+.navbar button[aria-expanded="false"] > .close-icon{
+	display: none;
+}
+
+.navbar-toggler:not(.collapse) .fa-bars{
+	display:inline;
+}
+/*------------------------------------
+----------icons styling----------
+------------------------------------*/
+ .fas{
+	color:white;	
+	font-size:40px;
+	margin:auto;
+	text-align:center;  
+} 
+ .fab{
+	color:white;	
+	font-size:25px;
+	margin:auto;
+	margin-bottom:20px;
+	text-align:center;  
+} 
+.fa-bars{
+	font-size:30px;
+}
+.fa-link{
+	font-size:20px;
+	margin-right:10px;
+}
+.fa-plus{
+	font-size:20px;
+	margin-right:10px;
+}
+
+/*------------------------------------
 ----------index.html----------
 ------------------------------------*/
 #home{
@@ -35,7 +182,7 @@
 	background-image:linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)),url('portfolio2/portfolio-8.jpg');
 	background-position:center;
 	background-repeat:no-repeat;
-	background-size:1200px 650px;
+	background-size:cover;
 }
 .index-body{
 	width:100%;
@@ -174,117 +321,6 @@ h3{
 	font-size:50px;  
 	margin:10px;  
 } 
-/*------------------------------------
-----------footer styling----------
-------------------------------------*/
-.footer{
-	width:100%;
-	margin:auto;
-	color:white;
-	margin-top:10px;
-	background:#040b14;
-	padding-left:20px;
-}
-.footer h1{
-	color:white;
-}
-.footer h2{
-	color:white;
-}
-.footer p{
-	color:lightgrey;
-	}
-.footer li{
-	list-style-type:none;
-	padding:0;
-	margin:0;
-}
-.footer li{
-	color:lightgrey;
-	padding-left:16px;
-}
-.footer li::before{
-	content:">";
-	padding-right:8px;
-	color:#ff4a17;
-}
-.footer a{
-	color:lightgrey;
-}
-.footer .fa{
-	color:white;	
-	font-size:25px;
-	margin:auto;
-	text-align:center;  
-} 
-.fa-facebook{
-	border-color: #fff;
-	color:white;
-	width:30px;
-	height:30px;
-	border-radius:10px;
-} 
-.fa-twitter{
-	border-color: #fff;
-	color:black;
-	width:30px;
-	border-radius:10px;
-	height:30px;
-} 
-.fa-instagram{
-	border-color: #fff;
-	color:black;
-	width:30px;
-	border-radius:10px;
-	height:30px;
-} 
-.fa-whatsapp{
-	border-color: #fff;
-	color:black;
-	width:30px;
-	border-radius:10px;
-	height:30px;
-} 
-.fa-telegram{
-	border-color: #fff;
-	color:black;
-	width:30px;
-	border-radius:10px;
-	height:30px;
-}
-.fa-facebook:hover{
-	border-color: #fff;
-	color:white;
-	text-decoration:none;  
-}
-.fa-telegram:hover{
-	border-color: #fff;
-	color:white;
-	text-decoration:none;  
-}
-.fa-instagram:hover{
-	border-color: #fff;
-	color:white;
-	text-decoration:none;  
-}
-.fa-whatsapp:hover{
-	border-color: #fff;
-	color:white;
-	text-decoration:none;  
-}
-.fa-twitter:hover{
-	border-color: #fff;
-	color:white;
-	text-decoration:none;  
-}
-.copyright{
-	width:100%;
-	margin:auto;
-	padding-top:20px;
-	padding-bottom:20px;
-	color:white;
-	background:black;
-}
 
 /*------------------------------------
 ----------register.html----------
@@ -465,7 +501,7 @@ input{
 	height:300px;
 	margin-top:50px;
 }
-.container{
+#store .main{
 	position:relative;
 	width:100%;
 }
@@ -497,7 +533,7 @@ input{
 .overlay .col-4{
 	margin-top:20px;
 }
-.container:hover .overlay{
+.main:hover .overlay{
 	opacity:0.9;
 }
 
@@ -678,67 +714,115 @@ input{
 }  
 
 /*------------------------------------
-----------navigation-bar styling----------
+----------footer styling----------
 ------------------------------------*/
-.navbar-brand{
-	font-weight:700;
-	color:white;
-}
-.navbar-custom{
-	color:white;
-	background-color:#333;
-	opacity:0.95;
-}
-.navbar li{
-	margin:0px 10px;
-}
-.nav-link{
-	color:white;
-}
-.nav-link:hover{
-	color:white;
-	background-color#ff4a17;
-}
-.btn-custom{
-	color:white;
-	margin:3px;
-	border-color:white;
-}
-.btn-custom:hover{
-	color:white;
-	border-color:#ff4a17;
-	background-color:#ff4a17;
-}
-.btn-custom a{
-	color:white;
-}
-
-/*------------------------------------
-----------icons styling----------
-------------------------------------*/
- .fas{
-	color:white;	
-	font-size:40px;
+.footer{
+	width:100%;
 	margin:auto;
-	text-align:center;  
-} 
- .fab{
+	color:white;
+	margin-top:10px;
+	background:#040b14;
+	padding-left:20px;
+}
+.footer h1{
+	color:white;
+}
+.footer h2{
+	color:white;
+}
+.footer p{
+	color:lightgrey;
+	}
+.footer li{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+.footer li{
+	color:lightgrey;
+	padding-left:16px;
+}
+.footer li::before{
+	content:">";
+	padding-right:8px;
+	color:#ff4a17;
+}
+.footer a{
+	color:lightgrey;
+}
+.footer .fa{
 	color:white;	
 	font-size:25px;
 	margin:auto;
-	margin-bottom:20px;
 	text-align:center;  
 } 
-.fa-bars{
-	font-size:30px;
+.fa-facebook{
+	border-color: #fff;
+	color:white;
+	width:30px;
+	height:30px;
+	border-radius:10px;
+} 
+.fa-twitter{
+	border-color: #fff;
+	color:black;
+	width:30px;
+	border-radius:10px;
+	height:30px;
+} 
+.fa-instagram{
+	border-color: #fff;
+	color:black;
+	width:30px;
+	border-radius:10px;
+	height:30px;
+} 
+.fa-whatsapp{
+	border-color: #fff;
+	color:black;
+	width:30px;
+	border-radius:10px;
+	height:30px;
+} 
+.fa-telegram{
+	border-color: #fff;
+	color:black;
+	width:30px;
+	border-radius:10px;
+	height:30px;
 }
-.fa-link{
-	font-size:20px;
-	margin-right:10px;
+.fa-facebook:hover{
+	border-color: #fff;
+	color:white;
+	text-decoration:none;  
 }
-.fa-plus{
-	font-size:20px;
-	margin-right:10px;
+.fa-telegram:hover{
+	border-color: #fff;
+	color:white;
+	text-decoration:none;  
+}
+.fa-instagram:hover{
+	border-color: #fff;
+	color:white;
+	text-decoration:none;  
+}
+.fa-whatsapp:hover{
+	border-color: #fff;
+	color:white;
+	text-decoration:none;  
+}
+.fa-twitter:hover{
+	border-color: #fff;
+	color:white;
+	text-decoration:none;  
+}
+.copyright{
+	width:100%;
+	margin:auto;
+	padding-top:20px;
+	padding-bottom:20px;
+	color:white;
+	background:black;
 }
 
 /*------------------------------------
