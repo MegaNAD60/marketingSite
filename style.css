@@ -24,12 +24,13 @@
 ----------navigation-bar styling----------
 ------------------------------------*/
 .navbar-brand{
+	font-size:1.5em;
 	font-weight:700;
 	color:white;
 }
 .navbar-custom{
 	color:white;
-	background:#040b14;
+	background:#02142b;
 }
 #index .navbar-custom{
 	color:white;
@@ -37,7 +38,7 @@
 	background-color:transparent;
 }
 #index .navbar-custom.scrolled{
-	background:#040b14;
+	background:#02142b;
 	opacity:0.95;
 }
 #store .navbar-custom{
@@ -46,7 +47,7 @@
 	background-color:transparent;
 }
 #store .navbar-custom.scrolled{
-	background:#040b14;
+	background:#02142b;
 	opacity:0.95;
 }
 
@@ -61,6 +62,7 @@
 }
 .nav-link{
 	color:white;
+	font-size:1.5em;
 }
 .nav-link:hover{
 	color:white;
@@ -512,8 +514,7 @@ input{
 	right:0;
 	left:0;
 	margin:auto;
-	background:#333;
-	background:rgb(0,0,0 0.5);
+	background:#02142b;
 	color:#f1f1f1;
 	transition: .5s ease;
 	opacity:0;
