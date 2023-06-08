@@ -1,94 +1,129 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="style.css" rel="stylesheet">
-	<script src="myScript.js"></script>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+		integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+		integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	<title>Index of Marketing Site</title>
 </head>
-<body id="index">
-	<button onclick="topFunction()" id="backToTopBtn" title="Go to top"><i>Top</i></button>
 
-<nav class="navbar navbar-expand-md navbar-custom fixed-top">
-  <a class="navbar-brand" href="#">NAD</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-    <i class="fas fa-bars"></i>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarCollapse">
-    <ul class="navbar-nav mx-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="portfolio.html">Store</a>
-      </li>
-		<li class="nav-item">
-			<a class="nav-link" href="contact.html">Contact</a>
-		</li>
-    </ul>
-    <form class="form-inline mt-2 mt-md-0">
-      <button class="btn btn-custom my-2 my-sm-0" type="submit"><a href="login.html">LOGIN</a></button>
-      <button class="btn btn-custom my-2 my-sm-0" type="submit"><a href="register.html">REGISTER</a></button>
-    </form>
-  </div>
-</nav>
-		<div id="home">
-			<div class="index-body">
-				<h1>WELCOME TO NAD MARKETING SITE</h1>
-				<center><h3>Your Satisfaction is our Satisfaction</h3></center>
-				<center><button id="btn3"><a href="#about">KNOW MORE</a></button></center>
-				<center><button id="btn4"><a href="portfolio.html">OUR STORES</a></button></center>
+<body id="index">
+	<button id="backToTopBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+
+	<nav class="navbar navbar-expand-md navbar-custom fixed-top">
+		<a class="navbar-brand" href="#">NAD</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+			aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			<i class="fas fa-bars"></i>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="navbar-nav mx-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="store.html">Store</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact</a>
+				</li>
+			</ul>
+			<div class="buttons">
+				<button class="login-btn">LOGIN</button>
+				<button class="signup-btn">SIGN UP</button>
 			</div>
+			<section class="login-section">
+				<div class="login-page">
+					<h1 id="login-h1">LOGIN</h1>
+					<form action="" method="">
+						<input type="text" id="login-username" placeholder="USERNAME" required></input><br /><br />
+						<input type="password" id="login-password" placeholder="PASSWORD" required></input><br /><br />
+						<button type="submit" class="signin-btn">Sign In</button><br />
+						<h4 id="login-h4">Don't have an account?<a href="register.html"> Sign Up Now</a></h4>
+					</form>
+				</div>
+			</section>
+			<section class="signup-section">
+				<div class="signup-page">
+					<h1>Create Account</h1>
+					<form action="" method="">
+						<input type="text" placeholder="FULL-NAME" required></input><br /><br />
+						<input type="email" placeholder="EMAIL ADDRESS" required></input><br /><br />
+						<input type="text" placeholder="COUNTRY" required></input><br /><br />
+						<input type="number" placeholder="PHONE NO." required></input><br /><br />
+						<button type="submit" class="submit-btn">SUBMIT</button><br />
+					</form>
+				</div>
+			</section>
 		</div>
+	</nav>
+	<div id="home">
+		<div class="index-body">
+			<h1>WELCOME TO NAD MARKETING STORE</h1>
+			<h3>Your Satisfaction is our Satisfaction</h3>
+			<button id="btn3"><a href="#about">GET STARTED</a></button>
+			<button id="btn4"><a href="store.html">OUR STORES</a></button>
+		</div>
+	</div>
 	<div class="container-fluid">
 		<div id="about">
 			<h1 id="home-h1"><b>KNOW US MORE</b></h1>
 			<div class="about-body">
 				<div class="row" id="about-us-row">
 					<div class="col-md-6">
-						<center><img id="abt-img" src="portfolio2/portfolio-4.jpg"/></center>
+						<center><img id="abt-img" src="portfolio2/portfolio-4.jpg" /></center>
 					</div>
 					<div class="col-md-6">
 						<h2><b>ABOUT US</b></h2>
 						<p>We are top marketing site in Nigeria and Africa at large. we are determined in providing </p>
-						<p>We are a Real Estate company, committed to providing luxury houses, lands and commercial 
-						properties at affordable prices and helping our esteemed clients to make the right investment for high returns.</p>
-						<p>We also use our experience, skills and connections in helping people/organizations that are willing to sell 
-						their properties.</p>
+						<p>We are a Real Estate company, committed to providing luxury houses, lands and commercial
+							properties at affordable prices and helping our esteemed clients to make the right
+							investment for high returns.</p>
+						<p>We also use our experience, skills and connections in helping people/organizations that are
+							willing to sell
+							their properties.</p>
 					</div>
 				</div>
 				<div id="mission-row">
 					<div class="row">
 						<div class="col-md-6">
-							<center><img id="abt-img" src="portfolio2/tabs-4.jpg"/></center>
+							<center><img id="abt-img" src="portfolio2/tabs-4.jpg" /></center>
 						</div>
 						<div class="col-md-6">
 							<h2><b>OUR MISSION</b></h2>
-							<p>We are top marketing site in Nigeria and Africa at large. we are determined in providing </p>
-							<p>We are a Real Estate company, committed to providing luxury houses, lands and commercial 
-							properties at affordable prices and helping our esteemed clients to make the right investment for high returns.</p>
-							<p>We also use our experience, skills and connections in helping people/organizations that are willing to sell 
-							their properties.</p>
+							<p>We are top marketing site in Nigeria and Africa at large. we are determined in providing
+							</p>
+							<p>We are a Real Estate company, committed to providing luxury houses, lands and commercial
+								properties at affordable prices and helping our esteemed clients to make the right
+								investment for high returns.</p>
+							<p>We also use our experience, skills and connections in helping people/organizations that
+								are willing to sell
+								their properties.</p>
 						</div>
 					</div>
 				</div>
 				<div id="vision-row">
 					<div class="row">
 						<div class="col-md-6">
-							<center><img id="abt-img" src="portfolio2/tabs-3.jpg"/></center>
+							<center><img id="abt-img" src="portfolio2/tabs-3.jpg" /></center>
 						</div>
 						<div class="col-md-6">
 							<h2><b>OUR VISION</b></h2>
-							<p>We are top marketing site in Nigeria and Africa at large. we are determined in providing </p>
-							<p>We are a Real Estate company, committed to providing luxury houses, lands and commercial 
-							properties at affordable prices and helping our esteemed clients to make the right investment for high returns.</p>
-							<p>We also use our experience, skills and connections in helping people/organizations that are willing to sell 
-							their properties.</p>
+							<p>We are top marketing site in Nigeria and Africa at large. we are determined in providing
+							</p>
+							<p>We are a Real Estate company, committed to providing luxury houses, lands and commercial
+								properties at affordable prices and helping our esteemed clients to make the right
+								investment for high returns.</p>
+							<p>We also use our experience, skills and connections in helping people/organizations that
+								are willing to sell
+								their properties.</p>
 						</div>
-					</div>	
+					</div>
 				</div>
 			</div>
 		</div>
@@ -104,10 +139,11 @@
 							<div class="col-md-2">
 								<i class="fa fa-shopping-cart"></i>
 							</div>
-							<div class="col-md-10">   
+							<div class="col-md-10">
 								<h4>Marketing</h4>
-								<p>We provide marketing services to our client and making sure our clients have access to varieties of goods and services
-								available in our stores.</p>
+								<p>We provide marketing services to our client and making sure our clients have access
+									to varieties of goods and services
+									available in our stores.</p>
 							</div>
 						</div>
 					</div>
@@ -118,10 +154,11 @@
 							<div class="col-md-2">
 								<i class="fa fa-code"></i>
 							</div>
-							<div class="col-md-10">   
+							<div class="col-md-10">
 								<h4>Web Development</h4>
-								<p>We provide services in Web Development to our client who are interested in this field. We build them to become one of 
-								the greatest developers in today's world.</p>
+								<p>We provide services in Web Development to our client who are interested in this
+									field. We build them to become one of
+									the greatest developers in today's world.</p>
 							</div>
 						</div>
 					</div>
@@ -135,10 +172,11 @@
 							<div class="col-md-2">
 								<i class="fa fa-car"></i>
 							</div>
-							<div class="col-md-10">   
+							<div class="col-md-10">
 								<h4>Marketing</h4>
-								<p>We provide marketing services to our client and making sure our clients have access to varieties of goods and services
-								available in our stores.</p>
+								<p>We provide marketing services to our client and making sure our clients have access
+									to varieties of goods and services
+									available in our stores.</p>
 							</div>
 						</div>
 					</div>
@@ -149,10 +187,11 @@
 							<div class="col-md-2">
 								<i class="fa fa-clock"></i>
 							</div>
-							<div class="col-md-10">   
+							<div class="col-md-10">
 								<h4>Web Development</h4>
-								<p>We provide services in Web Development to our client who are interested in this field. We build them to become one of 
-								the greatest developers in today's world.</p>
+								<p>We provide services in Web Development to our client who are interested in this
+									field. We build them to become one of
+									the greatest developers in today's world.</p>
 							</div>
 						</div>
 					</div>
@@ -166,10 +205,11 @@
 							<div class="col-md-2">
 								<i class="fa fa-podcast"></i>
 							</div>
-							<div class="col-md-10">   
+							<div class="col-md-10">
 								<h4>Marketing</h4>
-								<p>We provide marketing services to our client and making sure our clients have access to varieties of goods and services
-								available in our stores.</p>
+								<p>We provide marketing services to our client and making sure our clients have access
+									to varieties of goods and services
+									available in our stores.</p>
 							</div>
 						</div>
 					</div>
@@ -180,10 +220,11 @@
 							<div class="col-md-2">
 								<i class="fa fa-plane"></i>
 							</div>
-							<div class="col-md-10">   
+							<div class="col-md-10">
 								<h4>Web Development</h4>
-								<p>We provide services in Web Development to our client who are interested in this field. We build them to become one of 
-								the greatest developers in today's world.</p>
+								<p>We provide services in Web Development to our client who are interested in this
+									field. We build them to become one of
+									the greatest developers in today's world.</p>
 							</div>
 						</div>
 					</div>
@@ -197,10 +238,11 @@
 							<div class="col-md-2">
 								<i class="fa fa-building"></i>
 							</div>
-							<div class="col-md-10">   
+							<div class="col-md-10">
 								<h4>Marketing</h4>
-								<p>We provide marketing services to our client and making sure our clients have access to varieties of goods and services
-								available in our stores.</p>
+								<p>We provide marketing services to our client and making sure our clients have access
+									to varieties of goods and services
+									available in our stores.</p>
 							</div>
 						</div>
 					</div>
@@ -211,10 +253,11 @@
 							<div class="col-md-2">
 								<i class="fa fa-wifi"></i>
 							</div>
-							<div class="col-md-10">   
+							<div class="col-md-10">
 								<h4>Web Development</h4>
-								<p>We provide services in Web Development to our client who are interested in this field. We build them to become one of 
-								the greatest developers in today's world.</p>
+								<p>We provide services in Web Development to our client who are interested in this
+									field. We build them to become one of
+									the greatest developers in today's world.</p>
 							</div>
 						</div>
 					</div>
@@ -227,52 +270,66 @@
 			<div class="row">
 				<div class="col-md-4">
 					<h1><b>NAD</b></h1>
-					<p>Gwagwalada, <br/> Abuja, Nigeria</p>
+					<p>Gwagwalada, <br /> Abuja, Nigeria</p>
 					<p><b>Phone:</b>+234 81 353 073 09<br>
-					<b>Email:</b>nehemiahdauda60@gmail.com</p><br/>
+						<b>Email:</b>nehemiahdauda60@gmail.com
+					</p><br />
 					<div class="header-social-links">
-						  <a href="https://www.facebook.com/equity.justice.501" class="fab fa-facebook"></a>   
-						  <a href="https://www.instagram.com/nehemiahagbu" class="fab fa-instagram"></a>   
-						  <a href="https://wa.me/+2348135307309" class="fab fa-whatsapp"></a>   
-						  <a href="https://twitter.com/dauda_nehemiah" class="fab fa-twitter"></a>   
-						  <a href="https://t.me/NehemiahD" class="fab fa-telegram"></a>   
+						<a href="https://www.facebook.com/equity.justice.501" class="fab fa-facebook"></a>
+						<a href="https://www.instagram.com/nehemiahagbu" class="fab fa-instagram"></a>
+						<a href="https://wa.me/+2348135307309" class="fab fa-whatsapp"></a>
+						<a href="https://twitter.com/dauda_nehemiah" class="fab fa-twitter"></a>
+						<a href="https://t.me/NehemiahD" class="fab fa-telegram"></a>
 					</div>
 				</div>
-				<div class="col-md-4"><h2>Useful Links</h2>
+				<div class="col-md-4">
+					<h2>Useful Links</h2>
+					<i class="fas fa-chevron-right"></i>
 					<li><a href="#home">Home</a></li><br>
+					<i class="fas fa-chevron-right"></i>
 					<li><a href="#about">About Us</a></li><br>
+					<i class="fas fa-chevron-right"></i>
 					<li><a href="#services">Services</a></li><br>
+					<i class="fas fa-chevron-right"></i>
 					<li><a href="portfolio.html">Portfolio</a></li><br>
+					<i class="fas fa-chevron-right"></i>
 					<li><a href="contact.html">Contact</a></li><br>
 				</div>
-				<div class="col-md-4"><h2>Our Services</h2>
+				<div class="col-md-4">
+					<h2>Our Services</h2>
+					<i class="fas fa-chevron-right"></i>
 					<li>Marketing</li><br>
+					<i class="fas fa-chevron-right"></i>
 					<li>Web development</li><br>
+					<i class="fas fa-chevron-right"></i>
 					<li>Online sale</li><br>
+					<i class="fas fa-chevron-right"></i>
 					<li>Free wifi</li><br>
+					<i class="fas fa-chevron-right"></i>
 					<li>Data science</li><br>
 				</div>
 			</div>
 		</div>
 		<div class="copyright">
 			<center>
-				<span>copywright &copy <strong>nad 2022</strong></span><br/>
+				<span>copywright &copy <strong>nad 2022</strong></span><br />
 				<span>Design by <strong>Nehemiah Dauda</strong></span>
 			</center>
 		</div>
 	</div>
-	
-	
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
-	    <script>
-			$(window).scroll(function(){
-			$('.navbar').toggleClass('scrolled', $(this).scrollTop() > 200);
-			$('.nav-link').toggleClass('scrolled', $(this).scrollTop() > 200);
-			$('#back-to-top').toggleClass('scrolled', $(this).scrollTop() > 200);
-			});
-    </script>
-	
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+		crossorigin="anonymous"></script>
+
+
+	<script src="myScript.js"></script>
+
+
 </body>
+
 </html>
