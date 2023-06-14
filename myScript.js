@@ -26,8 +26,8 @@ const scrollTopBtn = document.getElementById('backToTopBtn');
 const loginBtn = document.getElementsByClassName('login-btn')[0];
 const signupBtn = document.getElementsByClassName('signup-btn')[0];
 const detailsBtn = document.getElementsByClassName('details-btn');
-const cancelIcon = document.getElementsByClassName('cancel')[0];
-const closeLogin = document.getElementsByClassName('close-login')[0];
+const closeDetails = document.getElementsByClassName('cancel')[0];
+const closeLogin = document.getElementsByClassName('close-login');
 const closeSignup = document.getElementsByClassName('close-signup')[0];
 const loginPage = document.getElementsByClassName('login-section')[0];
 const signupPage = document.getElementsByClassName('signup-section')[0];
@@ -75,18 +75,21 @@ for(i=0; i<detailsBtn.length; i++){
     });
 }
 
-//ONCLICK FUNCTION WHEn CANCEL ICON BTN IS CLICKED
-cancelIcon.addEventListener('click', () => {
-    toggleDetails();
-});
-
-closeLogin.addEventListener('click', () => {
+//ONCLICK FUNCTION TO CLOSE LOGIN PAGE
+closeLogin[0].addEventListener('click', () => {
     toggleLogin();
 });
 
+//ONCLICK FUNCTION TO CLOSE SIGNUP PAGE
 closeSignup.addEventListener('click', () => {
     toggleSignup();
 });
+
+//ONCLICK FUNCTION TO CLOSE DETAILS PAGE
+closeDetails.addEventListener('click', () => {
+    toggleDetails();
+});
+
 
 function toggleLogin() {
     loginPage.classList.toggle('login-section')

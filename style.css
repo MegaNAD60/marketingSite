@@ -845,6 +845,10 @@ a:hover {
 ----------media-query styling----------
 ------------------------------------*/
 @media (max-width : 600px) {
+	.index-body {
+		margin-top: 10rem;
+	}
+
 	#btn1 {
 		font-size: 1em;
 		float: right;
@@ -876,8 +880,8 @@ a:hover {
 	/*LOGIN BOX STYLING*/
 	.login-page {
 		position: absolute;
-		top: 10px;
-		right: 10px;
+		top: 40px;
+		right: 15px;
 		width: 90%;
 		height: 90vh;
 		padding: 20px;
@@ -890,7 +894,28 @@ a:hover {
 		}
 
 		to {
-			top: 10px
+			top: 40px
+		}
+	}
+
+	/*SIGN UP BOX STYLING*/
+	.signup-page {
+		position: absolute;
+		top: 40px;
+		right: 15px;
+		width: 90%;
+		height: 90vh;
+		padding: 20px;
+		animation: signupPage 2s ease;
+	}
+
+	@keyframes signupPage {
+		from {
+			top: 0px;
+		}
+
+		to {
+			top: 40px
 		}
 	}
 
@@ -909,9 +934,19 @@ a:hover {
 
 	.details-box {
 		position: fixed;
+		right: 20px;
 		width: 90%;
 		padding: 40px;
+		margin: auto;
 		background-color: rgb(248, 249, 250);
+	}
+
+	#portfolio-details-h1{
+		font-size: 1.5rem;
+	}
+
+	.product-details-block h2{
+		font-size: 1.2rem;
 	}
 
 }

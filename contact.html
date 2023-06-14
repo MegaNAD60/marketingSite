@@ -14,8 +14,10 @@
 
 <body id="contact-body">
 
+	<button id="backToTopBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+
 	<nav class="navbar navbar-expand-md navbar-custom fixed-top">
-		<a class="navbar-brand" href="#">NAD</a>
+		<div class="navbar-brand">NAD</div>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
 			aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 			<i class="fas fa-bars"></i>
@@ -26,10 +28,10 @@
 					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="store.html">Store</a>
+					<a class="nav-link" href="store.html">Stores</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Contact</a>
+					<a class="nav-link" href="contact.html">Contact</a>
 				</li>
 			</ul>
 			<div class="buttons">
@@ -38,6 +40,9 @@
 			</div>
 			<section class="login-section">
 				<div class="login-page">
+					<i class="fas fa-times close-login"
+						style="float: right; font-size: 1.2rem; position: absolute; top: 10px; right: 10px; margin-bottom: 10px;">
+					</i>
 					<h1 id="login-h1">LOGIN</h1>
 					<form action="" method="">
 						<input type="text" id="login-username" placeholder="USERNAME" required></input><br /><br />
@@ -49,6 +54,9 @@
 			</section>
 			<section class="signup-section">
 				<div class="signup-page">
+					<i class="fas fa-times close-signup"
+						style="float: right; font-size: 1.2rem; position: absolute; top: 10px; right: 10px; margin-bottom: 10px;">
+					</i>
 					<h1>Create Account</h1>
 					<form action="" method="">
 						<input type="text" placeholder="FULL-NAME" required></input><br /><br />
