@@ -8,7 +8,7 @@
 	z-index: 1;
 	border: none;
 	outline: none;
-	background-color: #ff4a17;
+	background-color: #d64922;
 	color: white;
 	cursor: pointer;
 	padding: 10px 15px;
@@ -63,8 +63,8 @@
 
 .btn-custom:hover {
 	color: white;
-	border-color: #ff4a17;
-	background-color: #ff4a17;
+	border-color: #d64922;
+	background-color: #d64922;
 }
 
 .btn-custom a {
@@ -140,8 +140,8 @@
 	margin-top: 40px;
 	color: white;
 	border-radius: 5px;
-	background: #ff4a17;
-	border: 2px solid #ff4a17;
+	background: #d64922;
+	border: 2px solid #d64922;
 }
 
 #btn3:hover {
@@ -156,8 +156,8 @@
 	margin-top: 40px;
 	color: white;
 	border-radius: 5px;
-	background: #ff4a17;
-	border: 2px solid #ff4a17;
+	background: #d64922;
+	border: 2px solid #d64922;
 }
 
 #btn4:hover {
@@ -203,13 +203,13 @@
 }
 
 #about h1 {
-	color: #ff4a17;
+	color: #d64922;
 	padding-top: 20px;
 	font-weight: 200;
 }
 
 #about h2 {
-	color: #ff4a17;
+	color: #d64922;
 }
 
 #mission-row {
@@ -253,7 +253,7 @@
 }
 
 #services h2 {
-	color: #ff4a17;
+	color: #d64922;
 }
 
 #services-h1 {
@@ -377,7 +377,7 @@
 	top: 70px;
 	right: 90px;
 	width: 45%;
-	height: 70vh;
+	height: 60vh;
 	padding: 30px;
 	text-align: center;
 	border-radius: 10px;
@@ -422,11 +422,11 @@ input {
 }
 
 #login-h4 a {
-	color: blue;
+	color: rgb(36, 102, 247);
 }
 
 #login-h4 a:hover {
-	color: blue;
+	color: rgb(36, 102, 247);
 	text-decoration: none;
 }
 
@@ -434,7 +434,7 @@ input {
 ----------portfolio.html----------
 ------------------------------------*/
 #portfolio-h2 {
-	color: #ff4a17;
+	color: #d64922;
 	margin-top: 100px;
 }
 
@@ -456,7 +456,7 @@ input {
 #portfolio-button:hover {
 	border-color: #fff;
 	color: white;
-	background: #ff4a17;
+	background: #d64922;
 }
 
 a:hover {
@@ -541,11 +541,11 @@ a:hover {
 ------------------------------------*/
 #portfolio-details-h1 {
 	font-size: 2rem;
-	color: #ff4a17;
+	color: #d64922;
 }
 
 #product-details-cart {
-	color: #ff4a17;
+	color: #d64922;
 	background: white;
 	border-style: solid;
 	border: none;
@@ -573,7 +573,7 @@ a:hover {
 	font-size: 20px;
 	height: 40px;
 	margin: 2px;
-	background: #ff4a17;
+	background: #d64922;
 	color: white;
 	border-radius: 5px;
 	border: 2px solid #fff;
@@ -601,7 +601,7 @@ a:hover {
 }
 
 #contact h1 {
-	color: #fd3800;
+	color: #d64922;
 
 }
 
@@ -614,7 +614,7 @@ a:hover {
 
 #contact .info-box i {
 	font-size: 32px;
-	color: #ff4a17;
+	color: #d64922;
 	border-radius: 50%;
 	padding: 8px;
 }
@@ -667,7 +667,7 @@ a:hover {
 
 #contact h2 {
 	font-size: 2rem;
-	color: #fd3800;
+	color: #d64922;
 	font-weight: 700;
 	margin: 10px 0;
 }
@@ -698,13 +698,13 @@ a:hover {
 	width: 30%;
 	color: white;
 	margin-bottom: 20px;
-	border: 2px solid #ff4a17;
-	background-color: #fd3800;
+	border: 2px solid #d64922;
+	background-color: #d64922;
 }
 
 #contact #message-box-button:hover {
-	color: #fd3800;
-	border-color: #fd3800;
+	color: #d64922;
+	border-color: #d64922;
 	background: rgba(255, 255, 255, 0.1);
 }
 
@@ -740,7 +740,7 @@ a:hover {
 
 .footer i{
 	font-size: 1.2rem;
-	color: #ff4a17;
+	color: #d64922;
 }
 
 
@@ -883,8 +883,8 @@ a:hover {
 		top: 40px;
 		right: 15px;
 		width: 90%;
-		height: 90vh;
-		padding: 20px;
+		height: 80vh;
+		padding: 10px;
 		animation: loginPage 2s ease;
 	}
 
@@ -904,8 +904,8 @@ a:hover {
 		top: 40px;
 		right: 15px;
 		width: 90%;
-		height: 90vh;
-		padding: 20px;
+		height: 80vh;
+		padding: 10px;
 		animation: signupPage 2s ease;
 	}
 
